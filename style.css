@@ -1,0 +1,67 @@
+/* happycode_ch landing page stylesheet */
+
+/* body */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+img {
+
+}
+
+button {
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 8px;
+}
+
+a {
+
+}
+
+
+
+.header,
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    padding: 16px;
+}
+
+.header {
+    justify-content: space-between;
+    
+}
+.header, 
+.subtext {
+    color: #E5E7EB;
+}
+
+.footer {
+
+    justify-content: center;
+    padding: 16px;
+}
+
+.footer, 
+.subtext {
+    color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    
+}
