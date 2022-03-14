@@ -45,8 +45,7 @@ a {
     justify-content: space-between;
     
 }
-.header, 
-.subtext {
+.header {
     color: #E5E7EB;
 }
 
@@ -56,8 +55,7 @@ a {
     padding: 16px;
 }
 
-.footer, 
-.subtext {
+.feature-subtext {
     color: #E5E7EB;
 }
 
