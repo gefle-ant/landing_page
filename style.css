@@ -17,7 +17,11 @@ img {
 }
 
 button {
-
+    margin-top: 8px;
+    border-radius: 6px;
+    padding: 4px 18px;
+    white-space: nowrap;
+    
 }
 
 ul {
@@ -32,7 +36,9 @@ a {
 
 }
 
-
+.main-container {
+    max-width: 1440px;
+}
 
 .header,
 .footer {
@@ -40,9 +46,17 @@ a {
     display: flex;
     padding: 16px;
 }
+.header,
+.container,
+.projects,
+.quote {
+    padding-left: 150px;
+    padding-right: 150px;
+}
 
 .header {
     justify-content: space-between;
+
     
 }
 .header {
@@ -50,9 +64,23 @@ a {
 }
 
 .footer {
-
+    color: #E5E7EB;
     justify-content: center;
     padding: 16px;
+}
+
+.feature {
+    background-color: #1f2937;
+}
+
+.feature-container {
+    max-width: 300px;
+}
+
+.feature-title {
+    color: #E5E7EB;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .feature-subtext {
@@ -61,5 +89,52 @@ a {
 
 .container {
     display: flex;
+    justify-content: center;
+
     
 }
+
+.projects {
+    display: flex;
+    margin: 75px;
+    gap: 25px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+.author {
+    justify-content: right;
+}
+
+.sign-up {
+margin-bottom: 50px;
+
+}
+.sign-up-container {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    display: flex;
+    padding: 25px;
+    gap: 12px;
+
+}
+
+
+
+.sign-up-btn {
+    background-color: #3882F6;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    margin: 0px;
+    padding: 4px 18px;
+}
+
